@@ -1,4 +1,4 @@
-# networkdicovery_portscanning
+# Network Dicovery and Port Scanning
 
 # First Part (Network Discovery)
 
