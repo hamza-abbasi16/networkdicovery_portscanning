@@ -48,7 +48,7 @@ f.write('\nLive IP Addresses:\n\n')
 
 count = 0
 iterator = 1
-check_first_x_hosts = 50     # Change this variable if you need the change the number of hosts
+check_first_x_hosts = 50     # Change this variable if you need to change the number of hosts
 for x in net.hosts():
     if count > check_first_x_hosts:        # Checking for first 50 hosts
         break
