@@ -23,7 +23,7 @@ f.write("Your Computer IP Address is:" + str(IPAddr) + '\n')
 for iface in netifaces.interfaces():
     iface_details = netifaces.ifaddresses(iface)
     if netifaces.AF_INET in iface_details:
-        if ((iface_details[netifaces.AF_INET][0]['addr']) == '192.168.18.19'):
+        if ((iface_details[netifaces.AF_INET][0]['addr']) == IPAddr):
             subnet = iface_details[netifaces.AF_INET][0]['netmask']
 
 # Printing Subnet Mask
